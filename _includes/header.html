@@ -1,0 +1,17 @@
+<header id="masthead" class="site-header">
+  {% assign img_path_is_not_empty = include.img_path | is_not_empty %}
+  {% if img_path_is_not_empty %}
+  <div id="header-bg" class="site-header-bg" style="background-image:url('{{ include.img_path | relative_url }}')"></div>
+  {% assign bg_img_is_not_empty = include.site.header.bg_img | is_not_empty %}
+  {% elsif bg_img_is_not_empty %}
+  <div id="header-bg" class="site-header-bg" style="background-image:url('{{ include.site.header.bg_img | relative_url }}')"></div>
+  {% endif %}
+  <div class="site-header-scroll">
+    <div class="site-header-inside">
+      <div class="site-header-vertical">
+        {% include branding.html %}
+        {% include navigation.html %}
+      </div><!-- .site-header-vertical -->
+    </div><!-- .site-header-inside -->
+  </div><!-- .site-header-scroll -->
+</header><!-- .site-header -->
