@@ -2,7 +2,7 @@
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Oblique;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww18400\viewh8400\viewkind0
+\margl1440\margr1440\vieww13080\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 ---\
@@ -10,8 +10,8 @@ title: CV\
 img_path: images/about2.jpeg\
 menus:\
   main:\
-    weight: 2\
-    title: Education and Academic Experience\
+    weight: 5\
+    title: CV\
 layout: page\
 ---\
 \
@@ -75,7 +75,6 @@ Off Campus Research Grant | UT Geological Sciences | 2019\
 \
 * FIELD EXPERIENCE *\
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \expnd0\expndtw0\kerning0
+\expnd0\expndtw0\kerning0
 \
 }
