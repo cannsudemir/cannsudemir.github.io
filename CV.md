@@ -1,6 +1,6 @@
 ---
 title: Education and Academic Experience
-img_path: images/about2.jpeg
+img_path: images/nm_profile.jpg
 menus:
   main:
     weight: 2
