@@ -9,6 +9,7 @@ layout: page
 ---
 [Click to download my RESUME](https://github.com/cannsudemir/RESUME/blob/b5841ac7648bfdf789f3dbffeca9d80170970a9b/Cansu_Demir_Resume_2021.pdf)
 
+<embed src="https://cannsudemir.github.io/images/Cansu_Demir_Resume_2021.pdf" type="application/pdf" />
 
 ### **EDUCATION**
 
