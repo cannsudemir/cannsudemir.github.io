@@ -1,10 +1,10 @@
 ---
-title: About Me
+title: Teaching Experience
 img_path: images/about2.jpeg
 menus:
   main:
-    weight: 3
-    title: About
+    weight: 2
+    title: Teaching
 layout: page
 ---
 

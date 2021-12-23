@@ -3,7 +3,7 @@ title:
 img_path: images/simpson2.jpg
 menus:
   main:
-    weight: 2
+    weight: 4
     title: CV
 layout: page
 ---
