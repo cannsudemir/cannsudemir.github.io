@@ -4,18 +4,41 @@ img_path: images/about2.jpeg
 menus:
   main:
     weight: 2
-    title: Teaching
+    title: Teaching and Volunteering
 layout: page
 ---
 
-**Cansu Demir** is a second year PhD student in Geological Sciences at the University of Texas at Austin. She was born and raised in [Ankara, Turkey](https://en.wikipedia.org/wiki/Ankara). She completed her undergraduate and Master's education at [Middle East Technical University](https://en.wikipedia.org/wiki/Middle_East_Technical_University) with a degree in Environmental Engineering.
+**I assisted 2 UT courses during my PhD in the Department of Geosciences:**
 
-After graduating from Master's, she moved to the US by awarded [Fulbright Scholarship](https://www.cies.org/about-us) to pursue her doctoral research.  
 
-Her research focus is on hydrogeology and groundwater modeling. Currently, she is specifically interested in groundwater dynamics of the coastal permafrost regions in the Arctic. 
+*1) Introduction to Physical and Chemical Hydrogeology*
 
->Water is the driving force of all nature. <cite>Leonardo Da Vinci</cite>
 
-She is currently working under the supervision of [Prof. M. Bayani Cardenas](http://www.jsg.utexas.edu/cardenas/research/).
 
-*Thank You for reading!*
+*2) Groundwater Hydrology*
+
+
+![GH_class](/images/teaching1.jpeg)
+
+**During my Master's in Environmental Engineering department at METU, I was able to teach 5 different courses covering a wide range of topics in Environmental Science and Management.**
+
+*1) Environmental Engineering Modeling*
+
+*2) Transport Processes in Environmental Engineering*
+
+*3) Unit Operations and Processes of Water Treatment*
+
+*4) Environmental Microbiology Laboratory*
+
+*5) Environmental Management*
+
+
+**Teaching Geology to K-12 students**
+
+Teaching something to an adult is easier and it's within our comfort zones. However, being able to convey information to kindergarten age kids is something else.. That is where you really experience what teaching is. 
+
+![Kindergarten 2019](/images/kikker1.jpeg)
+
+Curious eyes are looking at you with excitement and are ready to absorb the knowledge like a sponge. I was very lucky that in 2019, I got to experience teaching kindergarten students at Kikker Elementary School in Austin.
+
+![Kindergarten2 2019](/images/kikker2.jpeg)
