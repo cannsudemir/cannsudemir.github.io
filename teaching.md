@@ -18,7 +18,6 @@ layout: page
 *2) Groundwater Hydrology*
 
 
-![GH_class](/images/teaching1.jpeg)
 
 **During my Master's in Environmental Engineering department at METU, I was able to teach 5 different courses covering a wide range of topics in Environmental Science and Management.**
 
@@ -37,8 +36,8 @@ layout: page
 
 Teaching something to an adult is easier and it's within our comfort zones. However, being able to convey information to kindergarten age kids is something else.. That is where you really experience what teaching is. 
 
-![Kindergarten 2019](/images/kikker1.jpeg)
+![Kindergarten 2019](/images/kikker1.jpg)
 
 Curious eyes are looking at you with excitement and are ready to absorb the knowledge like a sponge. I was very lucky that in 2019, I got to experience teaching kindergarten students at Kikker Elementary School in Austin.
 
-![Kindergarten2 2019](/images/kikker2.jpeg)
+![Kindergarten2 2019](/images/kikker2.jpg)

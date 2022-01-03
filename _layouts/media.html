@@ -2,7 +2,7 @@
 <html>
     <head>    
         
-        <title>About Me - Cansu Demir</title>
+        <title>Apperance on Media - Cansu Demir</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google" content="notranslate" />
@@ -53,12 +53,12 @@
           <a href="/teaching/">Teaching and Volunteering</a>
         </li>
         
-        <li class="menu-item ">
-          <a href="/about%20copy/">About</a>
-        </li>
-        
         <li class="menu-item  current-menu-item">
           <a href="/about/">About</a>
+        </li>
+
+	<li class="menu-item  current-menu-item">
+          <a href="/media/">media</a>
         </li>
         
         <li class="menu-item ">
@@ -106,8 +106,71 @@
   
 </div><!-- .social-links -->
 
-      
-    </div><!-- .site-nav-inside -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+  </div><!-- .site-nav-inside -->
   </div><!-- .site-nav-wrap -->
 </nav><!-- .site-navigation -->
 <button id="menu-toggle" class="menu-toggle"><span class="screen-reader-text">Menu</span><span class="icon-menu"
@@ -123,49 +186,64 @@
   <div id="content" class="site-content">
     <main id="main" class="site-main inner">
 
-      <article class="post page post-full">
-        <header class="post-header">
-          <h1 class="post-title">About Me</h1>
-        </header><!-- .post-header -->
-        
-        
-        <div class="post-content">
-          <p><strong>Cansu Demir</strong> is a second year PhD student in Geological Sciences at the University of Texas at Austin. She was born and raised in <a href="https://en.wikipedia.org/wiki/Ankara">Ankara, Turkey</a>. She completed her undergraduate and Master’s education at <a href="https://en.wikipedia.org/wiki/Middle_East_Technical_University">Middle East Technical University</a> with a degree in Environmental Engineering.</p>
 
-<p>After graduating from Master’s, she moved to the US by awarded <a href="https://www.cies.org/about-us">Fulbright Scholarship</a> to pursue her doctoral research.</p>
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>Apperance on Media</h1>
+  <p>Click on the pictures to go to the original link.</p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+</div>
 
-<p>Her research focus is on hydrogeology and groundwater modeling. Currently, she is specifically interested in groundwater dynamics of the coastal permafrost regions in the Arctic.</p>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="/images/Travis.jpg" style="width:100%">
+    <img src="/images/Transect_with_the_team.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/images/12.jpeg" style="width:100%">
+    <img src="/images/Team_Bang.jpeg" style="width:100%">
+  </div>  
 
-<blockquote>
-  <p>Water is the driving force of all nature. <cite>Leonardo Da Vinci</cite></p>
-</blockquote>
+</div>
 
-<p>She is currently working under the supervision of <a href="http://www.jsg.utexas.edu/cardenas/research/">Prof. M. Bayani Cardenas</a>.</p>
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
 
-<p><em>Thank You for reading!</em></p>
 
-        </div><!-- .post-content -->
-      </article><!-- .post -->
-    <style>
-    #instafeed {overflow: auto; margin-left: -1%;}
-    #instafeed a {float: left; display: block; margin: 0 0 1% 1%; width: 19%; padding-bottom: 19%; position: relative;}
-    #instafeed a img {width: 100%; height: 100%; object-fit: cover; position: absolute;}
-</style>
-<p id="instafeed"></p>
+// Declare a loop variable
+var i;
 
-<script src="/js/jquery.min.js"></script>
-<script type="text/javascript">
-$.get('https://zapier.com/engine/rss/2502510/instagramnew', function (data) {
-    $(data).find("item").each(function () { // or "item" or whatever suits your feed
-        var el = $(this);
-        var title = el.find("title").text();
-        var link = el.find("link").text();
-        var image = el.find("enclosure").attr('url');
-        var description = el.find("description").text();
-        $('#instafeed').append('<a href="'+encodeURI(link)+'" target="_blank" title="'+title.replace('Caption: ','')+'"><img src="'+encodeURI(image)+'" alt="'+title.replace('Caption: ','')+'" /></a>');
-    });
-});
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
 </script>
+
 
     </main><!-- .site-main -->
 
