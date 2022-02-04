@@ -1,10 +1,10 @@
 ---
 title: Teaching Experience
-img_path: images/about2.jpeg
+img_path: images/green.jpg
 menus:
   main:
     weight: 2
-    title: Teaching and Volunteering
+    title: Teaching
 layout: page
 ---
 
