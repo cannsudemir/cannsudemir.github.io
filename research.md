@@ -1,11 +1,11 @@
 ---
-title: Appearance on Media
+title: Research
 img_path: images/12.jpeg
 menus:
   main:
-    weight: 4
-    title: Appearance on Media
-layout: media
+    weight: 1
+    title: Research
+layout: research
 ---
 
 You can find the news articles about the research that I am involved in. 
