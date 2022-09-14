@@ -8,6 +8,11 @@ thumb_img_path: images/guzelyurt.png
 content_img_path: images/simpson2.jpeg
 layout: post
 ---
+Related journal article:
+
+Demir, C., Fanta, D., Akıntuğ, B., Ünlü, K. Modeling coastal Güzelyurt (Morphou) aquifer 	in northern Cyprus for mitigation of groundwater depletion through managed aquifer 	recharge. Sustain. Water Resources Management 8, 96 (2022).
+	[doi:10.1007/s40899-022-00683-4](https://doi.org/10.1007/s40899-022-00683-4)
+
 ![Co](/images/guzelyurt.png)
 
 **ABSTRACT**
