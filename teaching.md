@@ -19,7 +19,7 @@ layout: page
 
 
 
-**During my Master's in Environmental Engineering department at METU, I was able to teach 5 different courses covering a wide range of topics in Environmental Science and Management.**
+**During my Master's in Environmental Engineering department at METU, I assisted 5 different courses covering a wide range of topics in Environmental Science and Management.**
 
 *1) Environmental Engineering Modeling*
 
@@ -34,9 +34,9 @@ layout: page
 
 **Teaching Geology to K-12 students**
 
-Teaching something to an adult is easier and it's within our comfort zones. However, being able to convey information to kindergarten age kids is something else.. That is where you really experience what teaching is. 
+Teaching kindergarten age kids is where you really experience what teaching is. Their curiosity inspires me. I was very lucky that in 2019 and 2022, I got to experience teaching kindergarten students at Kikker Elementary School in Austin.
+
 
 ![Kindergarten 2019](/images/kikker2.jpg)
 
-Curious eyes are looking at you with excitement and are ready to absorb the knowledge like a sponge. I was very lucky that in 2019, I got to experience teaching kindergarten students at Kikker Elementary School in Austin.
 

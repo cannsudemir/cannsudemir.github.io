@@ -49,7 +49,7 @@
   }
 
   img {
-    max-height: 60px;
+    max-height: 300px;
   }
 }
 
@@ -188,7 +188,8 @@
   .site-header-vertical {
     display: table-cell;
     height: 100%;
-    vertical-align: bottom;
+    vertical-align: top;
+    position: relative;
   }
 
   .site-branding {
@@ -199,7 +200,8 @@
 
   .site-logo {
     img {
-      max-height: 120px;
+      max-height: 300px;
+      position: relative;
     }
   }
 
@@ -251,7 +253,7 @@
 
   .site-nav-scroll {
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     -webkit-overflow-scrolling: touch;
     position: relative;
   }
