@@ -7,12 +7,12 @@ collections:
 header:
   title: Cansu Demir
   tagline: Minimal and clean blog theme
-  logo_img: images/logo_2.png
+  logo_img: images/logo1.png
   bg_img: images/11.jpeg
   has_nav: true
   has_social: true
 footer:
-  content: '&copy; All rights reserved. Theme by John Doe'
+  content: '&copy; All rights reserved. Theme by Stackbit'
   
 palette: yellow
 sass:
