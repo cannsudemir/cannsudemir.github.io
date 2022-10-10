@@ -24,11 +24,6 @@
             "icon": "fa-linkedin",
             "url": "https://www.linkedin.com/"
         },
-        {
-            "type": "devto",
-            "title": "DEV",
-            "icon": "fa-dev",
-            "url": "https://dev.to/"
-        }
+
     ]
 }
