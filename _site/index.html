@@ -140,38 +140,157 @@
 
       <article class="post page post-full">
         <header class="post-header">
-          <h1 class="post-title">About Me</h1>
+          <h2 class="post-title">About Me</h2>
         </header><!-- .post-header -->
-        
-        
-        <div class="post-content">
-	  <p><img src="/images/simpson1.jpg" alt="Simpson 2019" /></p>
-          <p>I am a PhD candidate in Geological Sciences at the University of Texas at Austin. I was born and raised in <a href="https://en.wikipedia.org/wiki/Ankara">Ankara, Turkey</a>. I completed my undergraduate and Master’s education at <a href="https://en.wikipedia.org/wiki/Middle_East_Technical_University">Middle East Technical University</a> with a degree in Environmental Engineering.</p>
 
-<p>After graduating from Master’s, I moved to the US by awarded <a href="https://www.cies.org/about-us">Fulbright Scholarship</a> to pursue my doctoral research.</p>
+	<!DOCTYPE html>
 
-<p>My research interests are groundwater flow - transport mechanisms, groundwater-surface water interactions and groundwater as a natural resource. I am particulary interested in high-latitude groundwater hydrology. My current focus is understanding  groundwater flow and transport dynamics in the coastal permafrost regions in the Arctic.</p>
+ <style>
 
-<blockquote>
-  <p>Water is the driving force of all nature. <cite>Leonardo Da Vinci</cite></p>
-</blockquote>
 
-<p>I am currently working as a research assistant under the supervision of <a href="http://www.jsg.utexas.edu/cardenas/research/">Prof. M. Bayani Cardenas</a>.</p>
+.imagebox {
+  width: 50%;
+  float: left;
+  height:300px;
+  position:relative;
+}
 
-<p><em>Thank You for reading!</em></p>
+.imagebox2 {
+  width:100%;
+  float: left;
+  height:1000px;
+  position:relative;
+}
+
+.imagebox img{
+  max-width:90%;
+  max-height:90%;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  overflow:hidden;
+}
+
+
+.imagebox2 img{
+  max-width:100%;
+  max-height:100%;
+  position:relative;
+  top:40%;
+  transform:translateY(-50%);
+  overflow:hidden;
+}
+
+.textbox-cont {
+  width: 50%;
+  height:500px;
+  float: right;
+  position:relative;
+
+}
+
+.textbox2-cont {
+  width: 100%;
+  height:500px;
+  float: center;
+  position:relative;
+
+}
+
+.textbox{
+  color:black;
+  position:absolute;
+  text-align: align;
+  width:100%;
+  padding:0px;
+  top:33%;
+  transform:translateY(-50%);
+  font-size:13px
+}
+
+.textbox2{
+  color:black;
+  position:absolute;
+  text-align: align;
+  width:100%;
+  padding:0px;
+  top:80%;
+  transform:translateY(-50%);
+  font-size:13px
+}
+
+@media only screen and (max-width: 700px) {
+    .imagebox{
+    width:100%;
+    height:200px;
+    }
+   .imagebox2 img{
+    top:35%;
+    }
+  .textbox-cont{
+    width:100%;
+    height:200px;
+    padding:20px
+    position:relative}
+  .textbox{
+      top:60%;
+      padding:0px}
+  .textbox2-cont{
+    width:100%;
+    height:200px;
+    padding:20px
+    position:relative}
+  .textbox2{
+      top:250%;
+      padding:0px}
+	
+
+}
+
+ /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+ .textbox{
+     font-size:13px}
+  .textbox2{
+      font-size:15px}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+ .textbox{
+     font-size: 11px}
+  .textbox2{
+    font-size: 11px}
+}
+ </style>
+
+ <div class="imagebox">
+  <img src="/images/simpson1.jpg" height="auto" />
+</div>
+<div class="textbox-cont">
+  <div class="textbox"><p> I am a PhD candidate in the Geological Sciences Department at the University of Texas at Austin.</p>
+    <p>I am interested in groundwater flow - transport mechanisms, groundwater-surface water interactions and groundwater as a natural resource in climatically vulnerable regions. My current focus is understanding  groundwater flow and transport dynamics in the coastal Arctic.</p>
+    <p>I am currently a research assistant under the supervision of <a href="http://www.jsg.utexas.edu/cardenas/research/">Prof. M. Bayani Cardenas</a>.</p>
+    
+  </div>
+</div>
+
+<div class="textbox2-cont">
+  <div class="textbox2"><p> I love amateur nature photography, traveling, taking care of my plants, and the Aegean/Mediterranean coast! </p>
+    
+  </div>
+</div>
+
+<div class="imagebox2">
+    <img src="/images/collage2.jpg" height="auto" />
+</div>
+
+	  
 
         </div><!-- .post-content -->
       </article><!-- .post -->
     </main><!-- .site-main -->
 
-    <footer id="colophon" class="site-footer inner">
-  <p class="site-info">
-    &copy; All rights reserved. Theme by Stackbit
-    &nbsp;
-    
-  </p><!-- .site-info -->
-  <a id="to-top" class="to-top" href="#page">To top <span class="icon-arrow-up" aria-hidden="true"></span></a>
-</footer><!-- .site-footer -->
 
 
   </div><!-- .site-content -->
